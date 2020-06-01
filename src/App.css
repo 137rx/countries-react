@@ -1,0 +1,17 @@
+.allCountries {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: lightgrey;
+}
+
+.country {
+  width: 25%;
+  border-style: outset;
+  background-color: white;
+  margin-top: 5%;
+}
+
+.flag {
+  max-width: 60%;
+}
