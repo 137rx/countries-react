@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import data from "./data.json"
 import Countries from './Countries'
 
 function App() {
   return (
     <div className="App">
-      <Countries />
+      <Countries data={data} />
     </div>
   );
 }
